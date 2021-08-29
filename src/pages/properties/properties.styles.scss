@@ -1,0 +1,66 @@
+.properties {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.properties__left {
+  flex: 0.7;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.properties__right {
+  flex: 0.7;
+}
+.properties__left-row1 {
+  margin-bottom: 10px;
+  height: 100px;
+  display: flex;
+  .boxp1 {
+    flex: 0.3;
+    margin-right: 10px;
+  }
+  .boxp2 {
+    flex: 0.7;
+  }
+}
+.properties__left-row2 {
+  display: flex;
+  flex: 0.3;
+  margin-bottom: 10px;
+}
+.properties__left-row3 {
+  flex: 1;
+  display: flex;
+}
+.properties__right {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+.boxp6 {
+  height: 100px;
+  margin-bottom: 10px;
+}
+.boxp7 {
+  height: 100px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.boxp8 {
+  flex: 0.1;
+}
+.boxp5 {
+  flex: 1;
+  margin-top: 10px;
+}
+.boxp3 {
+  flex: 1;
+  margin-right: 10px;
+}
+.boxp4 {
+  flex: 1;
+}
